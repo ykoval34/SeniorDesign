@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Senior_Design.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Senior_Design"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="800">
+        <Image x:Name="image1"/>
+        </Border>
+        <TextBlock x:Name="Status" HorizontalAlignment="Left" Margin="222,130,0,0" TextWrapping="Wrap" Text="Waiting to be started" VerticalAlignment="Top" Height="94" Width="338" FontSize="32"/>
+        <TextBlock x:Name="PWM_Status" HorizontalAlignment="Left" Margin="222,250,0,0" TextWrapping="Wrap" Text="None" VerticalAlignment="Top" Height="94" Width="338" FontSize="32"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="222,29,0,0" TextWrapping="Wrap" Text="STOLTZ Senior Design DR 2.2" VerticalAlignment="Top" Height="56" Width="410" SelectionChanged="textBlock_SelectionChanged" FontSize="29.333"/>
+        <Ellipse Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="116" Margin="10,29,0,0" Stroke="Black" VerticalAlignment="Top" Width="125"/>
+    </Grid>
+</Page>
