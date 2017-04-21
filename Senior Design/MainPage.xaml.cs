@@ -25,6 +25,14 @@ using Windows.Devices.Enumeration;
 using Microsoft.IoT.Lightning.Providers;
 using Windows.Devices.Pwm;
 
+// UART Connection Libraries
+using System.Text;
+using Windows.Devices.SerialCommunication;
+using Windows.Storage.Streams;
+using Windows.UI.Xaml.Controls.Maps;
+
+
+
 
 namespace Senior_Design
 {
@@ -84,6 +92,20 @@ namespace Senior_Design
             pwmPin.SetDriveMode(GpioPinDriveMode.Output);
 
         }
+
+        // UART Communication
+
+          
+
+
+
+
+
+
+
+
+
+
 
         private void PWMSignal()
         {
