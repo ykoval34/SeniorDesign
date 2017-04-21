@@ -92,6 +92,15 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="UART Support Files\buffer.cpp" />
+    <Content Include="UART Support Files\buffer.h" />
+    <Content Include="UART Support Files\crc.cpp" />
+    <Content Include="UART Support Files\crc.h" />
+    <Content Include="UART Support Files\datatypes.h" />
+    <Content Include="UART Support Files\local_datatypes.h" />
+    <Content Include="UART Support Files\printf.h" />
+    <Content Include="UART Support Files\VescUart.cpp" />
+    <Content Include="UART Support Files\VescUart.h" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
