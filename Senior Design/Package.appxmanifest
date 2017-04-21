@@ -14,6 +14,10 @@
 
   <mp:PhoneIdentity PhoneProductId="5235e072-bbf8-42ed-b496-a7d4c501c7fe" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
   
+  
+  
+  
+  
   <Properties>
     <DisplayName>Senior Design</DisplayName>
     <PublisherDisplayName>kovaly</PublisherDisplayName>
@@ -45,10 +49,13 @@
   </Applications>
 
   <Capabilities>
-    <Capability Name="serialcommunication" />
-    <Device Id="any">
-      <Function Type="name:serialPort" />
-    </Device>
+    <DeviceCapability Name="serialcommunication">
+      <Device Id="any">
+        <Function Type="name:serialPort" />
+      </Device>
+    </DeviceCapability>
+
+    <Capability Name="internetClient" />
     <iot:Capability Name="lowLevelDevices" />
     <DeviceCapability Name="109b86ad-f53d-4b76-aa5f-821e2ddf2141"/>
   </Capabilities>
